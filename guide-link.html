@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourUttarakhand | Local Guides</title>
+    <link rel="stylesheet" href="modern-style.css">
+    <script src="https://kit.fontawesome.com/3960797c32.js" crossorigin="anonymous"></script>
+    <style>
+        .guides-hero {
+            padding: 100px 5%;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bg.jpg');
+            /* Assuming bg.jpg exists or fallback */
+            background-color: var(--secondary-color);
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            margin-bottom: 2rem;
+        }
+
+        .guides-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .guides-hero h1 span {
+            color: var(--accent-color);
+        }
+
+        .guides-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            padding: 2rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .guide-link-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+            text-decoration: none;
+            color: var(--text-dark);
+            border: 1px solid #eee;
+        }
+
+        .guide-link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-color);
+        }
+
+        .guide-link-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .guide-link-card i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="logo">
+            <a href="index.html" class="logo-text">Your<span>Uttarakhand</span></a>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#destinations">Destinations</a></li>
+            <li><a href="index.html#experiences">Experiences</a></li>
+        </ul>
+        <div class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="guides-hero">
+        <p>Welcome to</p>
+        <h1>Local <span>Guides</span> Page</h1>
+        <p>Explore Uttarakhand To Fullest ft. our Local Guides</p>
+    </header>
+
+    <!-- Links -->
+    <section class="guides-list">
+        <a href="k-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Kedarnath</h3>
+            <p>Find Guides</p>
+        </a>
+        <a href="g-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Gangotri</h3>
+            <p>Find Guides</p>
+        </a>
+        <a href="y-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Yamunotri</h3>
+            <p>Find Guides</p>
+        </a>
+        <a href="b-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Badrinath</h3>
+            <p>Find Guides</p>
+        </a>
+        <a href="r-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Rishikesh</h3>
+            <p>Find Guides</p>
+        </a>
+        <a href="a-guides.html" class="guide-link-card">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Almora</h3>
+            <p>Find Guides</p>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>YourUttarakhand</h3>
+                <p>Your one-stop guide to the Land of Gods.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#destinations">Destinations</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 YourUttarakhand. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
