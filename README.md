@@ -48,13 +48,7 @@ Since this is a static website, no complex build process or backend server is re
 2.  Open the project folder.
 3.  Double-click `index.html` to open it in your default web browser.
 
-Alternatively, you can use a simple local server like Live Server (VS Code Extension) or Python's HTTP server:
-
-```bash
-# Python 3
-python -m http.server 8000
-```
-Then navigate to `http://localhost:8000` in your browser.
+Then navigate to `http://localhost` in your browser.
 
 ## ✨ Recent Modernization
 
